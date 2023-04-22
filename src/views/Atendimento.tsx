@@ -15,8 +15,8 @@ export default function Atendimento() {
 
     return (
         existe? <>
-            <h1 style={{display: "inline-block"}}>Atendimento</h1>
-            <h5 style={{float: "right"}}>Bem vindo {authmodule.currentUser!.email}</h5>
+            <h1>Atendimento</h1>
+            <span style={{display: "flex", justifyContent: 'end', fontSize: "0.7rem"}}>Logado como: {authmodule.currentUser!.email}</span>
             <Navbar/>
             <h2>Inicie a entrevista da consulta com o paciente</h2>
         </>:<>

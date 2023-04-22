@@ -1,0 +1,15 @@
+#gridmodalpaciente{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    text-align: right;
+}
+#botoessalvardeletar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px
+}
+
+#buttonsalvaralteracoes, #buttondeletarpaciente {
+    padding: 20px;
+    font-size: 2vw;
+}

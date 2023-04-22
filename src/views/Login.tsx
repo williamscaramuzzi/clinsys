@@ -32,7 +32,7 @@ export default function Login() {
                     <table>
                         <tbody>
                             <tr>
-                                <td><label htmlFor="emailInput">E-mail</label></td>
+                                <td><label htmlFor="emailInput">E-mail:</label></td>
                                 <td><input ref={emailInput} type="email" name="emailInput" id="emailInput" required /></td>
                             </tr>
                             <tr>

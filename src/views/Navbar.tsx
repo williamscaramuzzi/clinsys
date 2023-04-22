@@ -11,6 +11,7 @@ export default function Navbar() {
         <ul>
             <li><Link to={"/agendamentos"} style={linkstyle}>Agendamentos</Link></li>
             <li><Link to={"/atendimento"} style={linkstyle}>Atender Pacientes</Link></li>
+            <li><Link to={"/cadastropacientes"} style={linkstyle}>Cadastrar Pacientes</Link></li>
             <li style={{float: "right"}}><span onClick={async ()=>{
                 await getAuth().signOut();
                 navigate("/")
